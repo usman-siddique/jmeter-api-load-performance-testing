@@ -4,7 +4,7 @@
 This project demonstrates **API-level load and performance testing** using **Apache JMeter 5.6.3**.  
 It simulates realistic backend traffic across multiple user roles with weighted request distribution.
 
-> **Scope:** Backend API testing only. UI/frontend not included.
+> **Scope:** Backend API testing only for Mobile App. UI/frontend not included.
 
 ---
 
