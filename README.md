@@ -101,3 +101,12 @@ Dealer Users
 - Apache JMeter 5.6.3
 - CLI execution for performance optimization
 - JTL result files for analysis
+
+---
+
+## 📝 Additional Notes
+- Rate limit: 60 requests per minute per user
+- Authentication tokens are reused across loop iterations
+- Separate thread groups implemented for Guest, User, and Dealer flows
+- Transaction Controller used to measure end-to-end flow success
+- HTTP 429 responses are expected under high concurrency
