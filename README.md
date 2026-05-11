@@ -93,7 +93,6 @@ Dealer Users
 
 ## ⚠️ Known Constraints
 - Rate-limited APIs may return `HTTP 429`
-- Payment endpoints may throttle under high concurrency
 
 ---
 
